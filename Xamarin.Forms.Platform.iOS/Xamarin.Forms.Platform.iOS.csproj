@@ -294,5 +294,10 @@
       <Name>Xamarin.Forms.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup Condition="'$(Use2017)' == 'true'">
+    <Reference Include="netstandard" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Build.TypeRedirector" Version="0.1.1-preview" PrivateAssets="all" />
+  </ItemGroup>
 </Project>

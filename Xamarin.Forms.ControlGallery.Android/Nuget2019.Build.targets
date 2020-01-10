@@ -1,0 +1,7 @@
+<Project>
+    <ItemGroup>
+        <PackageReference Include="Xamarin.Build.Download">
+            <Version>0.7.1</Version>
+        </PackageReference>
+    </ItemGroup>
+</Project>
