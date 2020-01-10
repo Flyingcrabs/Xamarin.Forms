@@ -35,6 +35,8 @@
     <PackageReference Include="Xamarin.AndroidX.Migration">
       <Version>1.0.0-rc1</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Xamarin.Build.TypeRedirector" Version="0.1.1-preview" PrivateAssets="all" />
   </ItemGroup>
 </Project>
